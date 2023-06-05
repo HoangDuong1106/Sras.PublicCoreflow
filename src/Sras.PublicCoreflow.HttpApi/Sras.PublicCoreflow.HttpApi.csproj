@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <Import Project="..\..\common.props" />
 
@@ -10,6 +10,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Sras.PublicCoreflow.Application.Contracts\Sras.PublicCoreflow.Application.Contracts.csproj" />
+    <ProjectReference Include="..\Sras.PublicCoreflow.Application\Sras.PublicCoreflow.Application.csproj" />
   </ItemGroup>
 
   <ItemGroup>

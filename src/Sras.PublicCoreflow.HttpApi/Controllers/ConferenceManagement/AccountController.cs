@@ -34,11 +34,5 @@ namespace Sras.PublicCoreflow.Controllers.ConferenceManagement
             return await _accountAppService.GetConferenceUserListAsync(filter);
         }
 
-        [HttpGet("AccountProfiles")]
-        public async Task<List<AccountWithProfile>> GetListAllUsers()
-        {
-            return await _accountAppService.GetAllAccountsWithProfileListAsync();
-        }
-
     }
 }
